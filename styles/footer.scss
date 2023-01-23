@@ -120,3 +120,12 @@ color: var(--secondColor);
         gap:20px;
     }  
   }
+  @media screen and (max-width:375px){
+    .footer__store-icon{
+        gap:0px;
+    } 
+    .footer__h4{
+      
+        font-size: 10px; 
+  }
+}

@@ -6,6 +6,10 @@
     grid-template-columns: 51% 49%;
     grid-gap:14px;
 }
+
+
+    
+
 &__text__p1{
     margin-top: 160px;
     margin-bottom: 0px;
@@ -151,4 +155,9 @@ padding: 10px 30px;
     .hello-area__text__p1{
         margin-top: 20px; 
 }
+}
+@media screen and (max-width:375px){
+    .hello-area__text__p1{
+        margin-top: 15px; 
+} 
 }

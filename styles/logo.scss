@@ -11,6 +11,7 @@
     width: 217.64px;
     height: 58.9px;
     animation: slide1 20s infinite;
+    
 
 
 }
@@ -62,4 +63,12 @@
       
     }
 
+}
+@media screen and (max-width:580px){
+    .logo-vvrap{   
+    grid-template-columns: 1fr;
+    }
+    .tech-logo, .logo-2, .g-logo,.last-logo{
+        justify-self: center;
+    }     
 }

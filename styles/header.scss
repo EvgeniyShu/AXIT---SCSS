@@ -141,3 +141,16 @@ padding: 10px 20px;
     }
     
 }
+@media screen and (max-width:375px){
+ .header-p{
+    max-width: 50%;
+    font-size: 10px;
+ }
+ .header__link{
+ font-size: 15px;
+padding: 0px ;   
+}
+.header-sign-inputs-input{
+    max-width: 30%;
+}
+}
