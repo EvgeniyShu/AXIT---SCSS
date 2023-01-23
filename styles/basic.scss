@@ -7,9 +7,9 @@
 
 
 html{
-
+    width: 100%;
     max-width: 1920px;
-    min-width: 325px;
+    min-width: 280px;
     padding: 0;
     position: sticky;
 }
@@ -160,6 +160,7 @@ color: var(--secondColor);
 @media screen and (max-width:580px){
     .container{
         max-width:98%;
+        padding:0px 10px 0px 10px;
     }
    
 }
