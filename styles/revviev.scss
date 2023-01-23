@@ -91,3 +91,9 @@ grid-gap:10px;
     display: none;
 }
 }
+@media screen and (max-width:770px){
+    .revviev-vvrap{  
+        grid-template-columns: 1fr;
+       
+}
+}
