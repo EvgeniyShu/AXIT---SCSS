@@ -118,14 +118,15 @@ color: var(--secondColor);
     }
     .footer__store-icon{
         gap:20px;
-    }  
+    } 
+    .footer__h4{
+        transform: rotate(55deg);
+        font-size: 10px; 
+  } 
   }
   @media screen and (max-width:375px){
     .footer__store-icon{
         gap:0px;
     } 
-    .footer__h4{
-        transform: rotate(55deg);
-        font-size: 10px; 
-  }
+  
 }
