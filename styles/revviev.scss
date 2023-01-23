@@ -1,0 +1,93 @@
+.revviev{
+    background-color: var(--firstColor);
+    &-vvrap{
+        padding-top: 210px;
+        padding-bottom: 150px;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-gap:10px;
+    }
+}
+.revviev__text__h2{
+    margin-top: 10px;
+}
+.revviev__text-vvrap{
+display: grid;
+grid-template-columns: 1fr ;
+grid-template-rows: 50px ;
+grid-gap:10px;
+}
+.revviev__text__head{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border: 1px solid $mainColor;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+.revviev__text__p1,
+.revviev__text__p2,
+.revviev__text__p3,
+.revviev__text__p4,
+.revviev__text__inputs,
+.revviev__text__input1,
+.revviev__text__input2,
+.revviev__text__input3,
+.revviev__text__input4,
+.revviev__text__input5{
+    display: none;
+}
+.revviev__text__input1:checked~.revviev__text__p1,
+.revviev__text__input2:checked~.revviev__text__p2,
+.revviev__text__input3:checked~.revviev__text__p3,
+.revviev__text__input4:checked~.revviev__text__p4,
+.revviev__text__input5:checked~.revviev__text__inputs{
+    display: block;
+    padding: 0px 10px;
+}
+.revviev__text__label:hover{
+    cursor: pointer;
+}
+.revviev__text__inputs{
+    max-width: 100%;
+&__sender{
+    display: flex;
+    flex-flow: column nowrap;
+    gap:10px;
+}  
+&__text{
+    background-color: var(--firstColor);
+}
+&-item,&__text,.revviev__text__inputs__label{
+    color: var(--secondColor);
+}
+&-input,.revviev__text__inputs__text{
+    padding: 10px;
+    background-color: var(--firstColor);
+    color: var(--secondColor);
+}
+
+}
+
+.revviev__text__inputs__button{
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+@media screen and (max-width:999px){
+    .revviev{
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) -41.9%, rgba(255, 255, 255, 0.1) 260.24%);
+        background-color: var(--firstColor);
+    }
+    .revviev-vvrap{  
+        grid-template-columns: 90% 10%;
+       
+        .revviev__text p {
+            background-color: none;
+        }
+       
+       
+}
+.revviev__img{
+    display: none;
+}
+}

@@ -1,0 +1,65 @@
+.logo-vvrap{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:71px;
+    justify-self: center;
+    align-self: center;
+    padding: 89px 0px 99px 0px;
+    z-index: 2;
+}
+.tech-logo{
+    width: 217.64px;
+    height: 58.9px;
+    animation: slide1 20s infinite;
+
+
+}
+.logo-2{
+    width: 212.3px;
+    height: 59px;
+    animation: slide2 20s infinite;
+    
+
+
+}
+
+.g-logo{
+    width: 206.9px;
+    height: 59px;
+    animation: slide3 20s infinite;
+  
+
+ 
+}
+.last-logo{
+    width: 294.45px;
+    height: 59px;
+    animation: slide4 20s infinite;
+    
+
+
+}
+@media screen and (max-width:1200px){
+    .logo-vvrap{
+        grid-template-columns: repeat(2,1fr); 
+        justify-self: center;
+        align-self: center;
+    }
+    .tech-logo{
+        animation: P1 20s infinite;
+    }
+    .logo-2{
+        animation: P1 20s infinite;
+    }
+    .g-logo{
+      
+        animation: from-left 10s infinite;
+     
+    }
+    .last-logo{
+        
+        animation: from-right 10s infinite;
+      
+    }
+
+}

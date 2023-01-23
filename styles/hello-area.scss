@@ -1,0 +1,154 @@
+.hello-area{
+    height: 100vh;
+  
+&-vvrap{
+    display: grid;
+    grid-template-columns: 51% 49%;
+    grid-gap:14px;
+}
+&__text__p1{
+    margin-top: 160px;
+    margin-bottom: 0px;
+    animation: from-left 5s;
+
+
+}
+&__text__p{
+    max-width: 85%;
+    margin-bottom: 50px;
+    font-family: 'OpenSans',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+    animation: from-right 5s;
+    
+
+ 
+}
+&__text__h1{
+    margin-top: 0;
+   
+    font-family: 'OpenSans',sans-serif;
+font-weight: 800;
+    font-size: 55px;
+    color: var(--secondColor);
+    animation: opacity 11s;
+
+
+}
+&__text__button{
+    display: flex;
+    flex-flow: row wrap;
+    gap:20px;
+    animation: from-bottom 5s;
+
+ 
+    
+   
+
+    &-login{
+    width: 171px;
+    height: 57px;
+    line-height: 57px;
+    justify-content: center;
+    }
+    &-youtube{
+    width: 217px;
+    height: 57px;
+   line-height: 57px;
+    text-align: center;
+    }
+}
+.hello-area__text__button-input{
+    display: none;
+}
+.hello-area__text-inputs{
+    padding:3px 25px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 70px 70px;
+    grid-gap:10px;
+    background-color: var(--firstColor);
+    border: 3px solid $mainColor;
+    border-radius: 10px;
+    z-index: 3;
+    display: none;
+}
+.hello-area__text__button-input:checked~.hello-area__text-inputs{
+    display: grid;
+}
+}
+.hello-area__text-inputs-item{
+    
+    margin: 15px auto;
+}
+.hello-area__text-inputs-input{
+    width:100%;
+    background-color: var(--firstColor);
+    padding: 10px 0px;
+ 
+}
+
+.hello-area__text-inputs-submit{
+padding: 10px 30px;
+}
+.hello-area__img{
+    margin-top: 60px;
+    
+}
+@media screen and (max-width:1380px){
+    .hello-area-vvrap{
+   
+        grid-template-columns: 80%;
+    }
+   
+    .hello-area__text-inputs{
+        max-width: 50%;
+    }
+    
+    .hello-area__text__button-login{
+        width: 150px;
+        
+        }
+    .hello-area__text__button-youtube{
+        width: 150px;
+        
+        }
+
+ .hello-area{
+    height: 100vh;
+    background:var(--firstColor) url('../images/hello-img.svg') no-repeat;
+    background-size: 100%;
+    &__text__p1{
+        margin-top: 100px;  
+ }
+}
+.hello-area__img{
+    display: none;
+}
+ }
+ .hello-area__text__p{
+    background-color: var(--firstColor);
+ }
+ @media screen and (max-width:1200px){
+
+    .hello-area__text__p1{
+        margin-top: 50px;  
+ }
+.hello-area-vvrap{
+   
+    grid-template-columns: 100%;
+    
+}
+}
+@media screen and (max-width:770px){
+    .hello-area-vvrap{
+   
+        grid-template-columns: 100%;
+    }
+}
+@media screen and (max-width:580px){
+    .hello-area__text__p1{
+        margin-top: 20px; 
+}
+}
