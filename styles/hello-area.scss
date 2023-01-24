@@ -80,6 +80,7 @@ font-weight: 800;
 }
 .hello-area__text__button-input:checked~.hello-area__text-inputs{
     display: grid;
+    max-width: 100%;
 }
 }
 .hello-area__text-inputs-item{
