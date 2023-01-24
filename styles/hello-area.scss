@@ -156,6 +156,9 @@ padding: 10px 30px;
     .hello-area__text__p1{
         margin-top: 20px; 
 }
+.hello-area__text__p{
+    animation: from-right 5s;
+}
 }
 @media screen and (max-width:375px){
     .hello-area__text__p1{

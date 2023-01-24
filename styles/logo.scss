@@ -70,5 +70,10 @@
     }
     .tech-logo, .logo-2, .g-logo,.last-logo{
         justify-self: center;
-    }     
+    } 
+    .last-logo{
+        
+        animation: from-left 10s infinite;
+      
+    }    
 }
