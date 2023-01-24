@@ -107,12 +107,12 @@ margin-bottom: 30px;
 }
 .about__text{
     background-color: var(--firstColor);
-    background:linear-gradient(180deg, rgba(255, 255, 255, 0.05) -41.9%, rgba(255, 255, 255, 0.05) 260.24%), url(../images/section_about/about.svg);
+    background:linear-gradient(to top, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0) ), url(../images/section_about/about.svg);
     background-size: 100% 100%;
     
 }
 .about__text__p{ 
-    background-color: var(--firstColor);
+   
     margin-bottom: 20px}
 
 }
