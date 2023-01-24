@@ -83,12 +83,18 @@ padding: 10px 20px;
     padding: 3px;
     background-color: $mainColor;
     border-radius: 5px;
-}
-.header-sign-inputs-input{
-    background-color: var(--firstColor);
+    &-item{
+        max-width: 30%;
+    }
+    &-input{
+        max-width: 100%;
+        background-color: var(--firstColor);
     color: var(--secondColor);
     padding: 7px;
+    border-radius: 5px;
+    }
 }
+
 .header-sign-inputs-button{
     padding: 3px 10px;
 }
@@ -113,11 +119,14 @@ padding: 10px 20px;
         align-items: flex-start; 
   
 }
+
 .header__logo{
     
     flex-basis: 75px;
+    
     position: absolute;
     top: 0;
+    z-index: -1;
    
     
 }
@@ -131,9 +140,9 @@ padding: 10px 20px;
 } 
 }
 @media screen and (max-width:770px){
-    .header__logo{
+    .header__logo-p{
     
-        flex-basis: 55px;}
+        max-width: 75px;}
   
   
 }
@@ -152,6 +161,13 @@ padding: 10px 20px;
      .header-button{
         margin: 24px 0px 4px auto; 
     } 
+    .header-sign-inputs-item{
+        max-width: 35%;
+    }
+    .header-sign-inputs-input{
+        padding: 3px;
+        max-width: 100%;
+    }
 }
 @media screen and (max-width:375px){
 
@@ -159,8 +175,5 @@ padding: 10px 20px;
  font-size: 15px;
 padding: 0px ;   
 }
-.header-sign-inputs-item,.header-sign-inputs-input{
-    padding: 3px;
-    max-width: 30%;
-}
+
 }
