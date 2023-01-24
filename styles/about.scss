@@ -36,6 +36,7 @@ margin-bottom: 30px;
 
 }
 }
+}
 .about__img-p1,.about__img-p2,.about__img-p3{
     display: none;
     font-weight: 600;
@@ -52,7 +53,7 @@ margin-bottom: 30px;
 .about__img-p1{
     max-width: 50%;
     position: relative;
-    top:-630px;
+    top:-530px;
     animation: P1 7s;
     
 
@@ -60,21 +61,21 @@ margin-bottom: 30px;
 }
 .about__img-p2{
     position: relative;
-    top:-900px;
+    top:-650px;
     left: 600px;
     animation: opacity 7s;
 }
 .about__img-p3{
     position: relative;
     top:-570px;
-    left: 700px;
-    animation: from-right 7s;
+    left: 500px;
+    animation: opacity 7s;
 }
 .about__text__button{
     padding: 15px 25px;
 }
 
-}
+
 @media screen and (max-width:1380px){
     .about__img-image{
     width: 500px;
@@ -83,66 +84,19 @@ margin-bottom: 30px;
     .about__text__h2{
         margin-top: 20px;
     }
-    .about__img-p1{
-        max-width: 50%;
-        position: relative;
-        top:-430px;
-        animation: P1 7s;
-    }
-    .about__img-p2{
-        position: relative;
-        top:-630px;
-        left: 600px;
-        animation: opacity 7s;
-    }
-    .about__img-p3{
-        position: relative;
-        top:-450px;
-        left: 700px;
-        animation: from-right 7s;
-    }
+   
 }
 @media screen and (max-width:1200px){
-    .about__img-p1{
-        max-width: 50%;
-        position: relative;
-        top:-370px;
-        animation: P1 7s;
-    }
-    .about__img-p2{
-        position: relative;
-        top:-530px;
-        left: 600px;
-        animation: opacity 7s;
-    }
-    .about__img-p3{
-        position: relative;
-        top:-380px;
-        left: 550px;
-        animation: from-right 7s;
-    }  
+   
 }
-@media screen and (max-width:999px){
-    .about__img-p1{
-        max-width: 50%;
-        position: relative;
-        top:-200px;
-        animation: P1 7s;
-    }
-    .about__img-p2{
-        position: relative;
-        top:-330px;
-        left: 300px;
-        animation: opacity 7s;
-    }
-    .about__img-p3{
-        position: relative;
-        top:-280px;
-        left: 150px;
-        animation: from-right 7s;
-    } 
 
-}
+@media screen and (max-width:999px){
+    .transparent:hover~.about__img-p2 ,.transparent:hover~.about__img-p3{
+       
+        display: none;
+} 
+}  
+
 @media screen and (max-width:770px){
     .about-vvrap{   
     grid-template-columns:1fr;

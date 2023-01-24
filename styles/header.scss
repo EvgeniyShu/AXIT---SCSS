@@ -137,19 +137,20 @@ padding: 10px 20px;
 }
 .header-button{
     margin: 24px 29px 4px auto; 
+}
+.header__menu{
+        
+    flex-basis: 15px;
+}
+.header__menu-items{
+    margin: 5px;
 } 
 }
 @media screen and (max-width:770px){
     .header__logo-p{
     
         max-width: 75px;}
-        .header__menu{
-        
-            flex-basis: 15px;
-        }
-        .header__menu-items{
-            margin: 5px;
-        }
+       
   
 }
 @media screen and (max-width:580px){
