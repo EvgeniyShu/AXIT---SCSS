@@ -64,6 +64,13 @@
     }
 
 }
+@media screen and (max-width:770px){
+    .last-logo{
+        
+        animation: from-left 10s infinite;
+      
+    }    
+}
 @media screen and (max-width:580px){
     .logo-vvrap{   
     grid-template-columns: 1fr;
@@ -71,9 +78,5 @@
     .tech-logo, .logo-2, .g-logo,.last-logo{
         justify-self: center;
     } 
-    .last-logo{
-        
-        animation: from-left 10s infinite;
-      
-    }    
+   
 }

@@ -143,14 +143,17 @@ padding: 10px 20px;
     .header__logo-p{
     
         max-width: 75px;}
-  
+        .header__menu{
+        
+            flex-basis: 15px;
+        }
+        .header__menu-items{
+            margin: 5px;
+        }
   
 }
 @media screen and (max-width:580px){
-    .header__menu{
-        
-        flex-basis: 20px;
-    }
+ 
     .header__menu-item__link{
         padding: 10px;
     }

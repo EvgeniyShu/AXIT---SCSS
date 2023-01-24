@@ -134,15 +134,17 @@ margin: 10px;
         grid-gap:10px;
     }
     .footer-cards{
-   
-       
-        gap: 5px;
+           gap: 5px;
     }
-   
     
     .footer__store-icon{
         gap:10px;
     } 
+    .footer__h4,.footer-link{
+        flex-basis:14.2% ;
+        justify-content: center;
+        align-items: center;
+    }
     
   } 
   
