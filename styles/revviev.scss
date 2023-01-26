@@ -21,7 +21,7 @@ grid-gap:10px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    border: 1px solid $mainColor;
+    border: 1px solid var(--mainColor);
     border-radius: 5px;
     padding: 0px 10px;
 }
@@ -75,7 +75,7 @@ grid-gap:10px;
 }
 @media screen and (max-width:999px){
     .revviev{
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) -41.9%, rgba(255, 255, 255, 0.1) 260.24%);
+        background: linear-gradient(127deg, var(--mainColor),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0) ,var(--mainColor));
         background-color: var(--firstColor);
     }
     .revviev-vvrap{  

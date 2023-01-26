@@ -55,8 +55,8 @@ font-size: 16px;
 color: var(--secondColor);
 padding: 10px 20px;
 }
-&__link:active{
-    color: $mainColor;
+&__link:active,&__link:hover{
+    color: var(--mainColor);
 }
 }
 }
@@ -81,7 +81,7 @@ padding: 10px 20px;
     max-width: 100%;
     margin: 0px ;
     padding: 3px;
-    background-color: $mainColor;
+    background-color: var(--firstColor);
     border-radius: 5px;
     &-item{
         max-width: 30%;

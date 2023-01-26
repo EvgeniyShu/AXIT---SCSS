@@ -34,14 +34,14 @@ margin: 10px;
 
 .footer__logo-p{
     padding: 0 auto;
-    color: $mainColor;
+    color: var(--mainColor);
 }
 .footer__p{
     max-width: 80%;
     line-height: 18px;
 }
 .footer-link:hover{
-    color: $mainColor;
+    color: var(--mainColor);
 }
 .footer__h4{
 font-family: 'Circular';

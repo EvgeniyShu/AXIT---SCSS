@@ -94,21 +94,28 @@ line-height: 160%;
 color: var(--secondColor);
     opacity: 0.7;
     }
-   .header-sign-inputs-input,.colorbar{
+   .header-sign-inputs-input,.colorbar,.hello-area__text-inputs-item{
     background-color: var(--firstColor);
     border: 1px solid var(--mainColor);
     border-radius: 5px;
 }
 input, textarea {
+    border-radius: 5px;
     outline: none;
     border: none;
+}
+iframe{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 @media screen and (max-width:1380px){
     .container{
         max-width: 1100px;
-     
-    } 
+        
+        background-color: transparent;
+    }
+ 
        
 }
 @media screen and (max-width:1200px){

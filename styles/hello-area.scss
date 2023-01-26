@@ -1,6 +1,6 @@
 .hello-area{
     height: 100vh;
-  
+    min-height: 780px;
 &-vvrap{
     display: grid;
     grid-template-columns: 51% 49%;
@@ -57,6 +57,7 @@ font-weight: 800;
     justify-content: center;
     }
     &-youtube{
+    text-decoration: none;
     width: 217px;
     height: 57px;
    line-height: 57px;
@@ -73,7 +74,7 @@ font-weight: 800;
     grid-template-rows: 70px 70px;
     grid-gap:10px;
     background-color: var(--firstColor);
-    border: 3px solid $mainColor;
+    border: 3px solid var(--mainColor);
     border-radius: 10px;
     z-index: 3;
     display: none;

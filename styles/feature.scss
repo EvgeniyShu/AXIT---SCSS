@@ -17,7 +17,7 @@
 }
 
 .feature-vvrap::-webkit-scrollbar-thumb{
-    background-color: $mainColor;
+    background-color: var(--mainColor);
     border-radius: 10px;
 }
 .feature__card{
@@ -40,7 +40,7 @@ height: 103px;
 cursor: pointer;
 }
 .feature__card-h3:hover{
-color: $mainColor;
+color: var(--mainColor);
 }
 @media screen and (max-width:1200px){
     .feature-vvrap{
