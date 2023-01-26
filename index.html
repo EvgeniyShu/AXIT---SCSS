@@ -10,6 +10,14 @@
     
 </head>
 <body>
+  <input class=" theme-input" type="checkbox" id="theme" name="theme" >
+  <input class=" colorbar-input" type="checkbox" id="colorbar" name="colorbar" >
+  <input class="colorbar__input-green" type="radio" id="colorbar__item-green" name="colorbar__item" >
+  <input class="colorbar__input-red" type="radio" id="colorbar__item-red" name="colorbar__item" >
+  <input class="colorbar__input-aqua" type="radio" id="colorbar__item-aqua" name="colorbar__item" >
+  <input class="colorbar__input-blue" type="radio" id="colorbar__item-blue" name="colorbar__item" >
+  <div class="theme">
+   
   <header class="header" id="header">
     
     <div class="container">
@@ -52,6 +60,28 @@
   <main>
     <div class="section_division" id="hello-area"></div>
     <section class="hello-area" >
+      <div class="container-bg">
+        <div class="color-vvrap">
+          <label  class="colorbar" for="theme">
+          <label  class="colorbar__item" for="colorbar__item"><div class="round"></div></label>
+          <input class="colorbar__input" type="checkbox" id="colorbar__item" name="colorbar__item" >
+          <div class="colorbar_menu">
+          <label  class="colorbar__item" for="colorbar__item-green"><div class="round-green"></div></label>
+          
+          <label  class="colorbar__item" for="colorbar__item-red"><div class="round-red"></div></label>
+         
+          <label  class="colorbar__item" for="colorbar__item-aqua"><div class="round-aqua"></div></label>
+          <label  class="colorbar__item" for="colorbar__item-blue"><div class="round-blue"></div></label>
+          </div>
+          </label>
+          <label  class="colorbar " for="theme">
+          
+            <p class="colorbar__item__p1" >dark</p>
+            <p class="colorbar__item__p2">light</p>
+           
+           
+          </label>
+        </div>
       <div class="container">
       <div class="hello-area-vvrap">
         <div class="hello-area__text">
@@ -84,13 +114,27 @@
         </div>
         
         <div class="hello-area__img">
+         
+          </label>
          <img src="./images/hello.png" alt="banner">
         </div>
       </div>
       </div>
+    </div>
 
     </section>
+    <section class="video">
+      <div class="container-bg">
+        
+        <div class="container">
+          <img src="./images/hello.png" alt="banner"> 
+        </div>
+        
+      </div>
+    </section>
     <section class="logo">
+      <div class="logo__square">
+        <div class="square"></div>
       <div class="container">
         <div class="logo-vvrap">
           <img class="tech-logo" src="./images/section_logo/tech.svg" alt="Tech-logo">
@@ -100,8 +144,10 @@
         </div>
 
       </div>
-
+        <div class="square"></div>
+        </div>
     </section>
+    
     <div class="section_division" id="about"></div>
     <section class="about" >
       <div class="container">
@@ -226,6 +272,7 @@
       </div>
 
     </section>
+  </div>
   </main>
   <div class="section_division" id="footer"></div>
   <footer class="footer" >

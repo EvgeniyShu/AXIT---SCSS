@@ -1,9 +1,5 @@
 
-:root{
---firstColor:#020a1b;
---secondColor:#ffffff;
 
-}
 
 
 html{
@@ -13,6 +9,7 @@ html{
     padding: 0;
     position: sticky;
 }
+
 body{
     margin: 0;
    
@@ -25,7 +22,9 @@ body{
 }
 .container{
     max-width: 1275px;
-    margin: 0 auto;
+    margin: 0px auto;
+   background-color: var(--firstColor);
+ 
 }
 .section_division{
     position: relative;
@@ -36,7 +35,7 @@ main_button, .main_button{
 
     font-weight: 600;
     font-size: 20px;
-    background: $mainColor;
+    background: var(--mainColor);
     border-radius: 5px;
     color: var(--secondColor);
     text-align: center;
@@ -62,7 +61,7 @@ background: var(--secondColor);
 
 .color-text{
     text-transform:uppercase;
-    color: $mainColor;
+    color: var(--mainColor);
     
    
 }
@@ -95,10 +94,20 @@ line-height: 160%;
 color: var(--secondColor);
     opacity: 0.7;
     }
+   .header-sign-inputs-input,.colorbar{
+    background-color: var(--firstColor);
+    border: 1px solid var(--mainColor);
+    border-radius: 5px;
+}
+input, textarea {
+    outline: none;
+    border: none;
+}
 
 @media screen and (max-width:1380px){
     .container{
         max-width: 1100px;
+     
     } 
        
 }
@@ -164,3 +173,4 @@ color: var(--secondColor);
     }
    
 }
+
