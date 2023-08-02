@@ -10,104 +10,104 @@
     
 </head>
 <body>
-  <input class=" theme-input" type="checkbox" id="theme" name="theme" >
-  <input class=" colorbar-input" type="checkbox" id="colorbar" name="colorbar" >
-  <input class="colorbar__input-green" type="radio" id="colorbar__item-green" name="colorbar__item" >
-  <input class="colorbar__input-red" type="radio" id="colorbar__item-red" name="colorbar__item" >
-  <input class="colorbar__input-aqua" type="radio" id="colorbar__item-aqua" name="colorbar__item" >
-  <input class="colorbar__input-blue" type="radio" id="colorbar__item-blue" name="colorbar__item" >
-  <div class="theme">
-   
+  <input class="check_input" type="checkbox" id="theme" name="theme" >
+  <input class="check_input" type="checkbox" id="colorbar" name="colorbar" >
+  <input class="check_input" type="radio" id="green" name="colorbar__item" >
+  <input class="check_input" type="radio" id="red" name="colorbar__item" >
+  <input class="check_input" type="radio" id="aqua" name="colorbar__item" >
+  <input class="check_input" type="radio" id="blue" name="colorbar__item" >
+  <div class="colorbar">
+    
   <header class="header" id="header">
     
     <div class="container">
-    <div class="header-vvrap">
+    <div class="header_wrap">
       
-    <div class="header__logo">
+    <a href="#hello-area" class="logo">
      
-        <img class="header__logo-img" src="./images/logo.svg" alt="Logo">
-        <p class="header__logo-p">Artificial Intelligence</p>
-    </div>
+        <img class="logo__img" src="./images/logo.svg" alt="Logo">
+        <p class="logo__p">Artificial Intelligence</p>
+    </a>
     
-        <menu class="header__menu">
-            <ul class="header__menu-items">
-              <li class="header__menu-item"><a class="header__menu-item__link" href="#hello-area">Home</a></li>
-                 <li class="header__menu-item"><a class="header__menu-item__link" href="#about">About</a> </li>
-                <li class="header__menu-item"><a class="header__menu-item__link" href="#servises">Services</a></li>
-                <li class="header__menu-item"><a class="header__menu-item__link" href="#revviev">Blog</a></li>
-                <li class="header__menu-item"><a class="header__menu-item__link" href="#footer">Contact</a></li>
+        <menu class="menu">
+            <ul class="menu-items">
+                <li class="menu__item"><a class="menu__link" href="#hello-area">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="#about">About</a> </li>
+                <li class="menu__item"><a class="menu__link" href="#servises">Services</a></li>
+                <li class="menu__item"><a class="menu__link" href="#revviev">Blog</a></li>
+                <li class="menu__item"><a class="menu__link" href="#footer">Contact</a></li>
             </ul>
         </menu>
     
-        <label  class="main_button header-button" for="sign">Sign In</label>
+        <label  class="main-button header__main-button" for="sign" >Sign In</label>
         
 </div>
 
-<input class="main_button header-button-input" type="checkbox" id="sign" name="sign" >
-<div class="header-sign-inputs">
+<input class="check_input" type="checkbox" id="sign" name="sign" >
+<div class="sign-inputs">
   
-  <label class="header-sign-inputs-item" for="">
-    <input class="header-sign-inputs-input" type="text" name="name-user" placeholder="Name" required>
+  <label class="sign-inputs__item" for="">
+    <input class="sign-inputs__input" type="text" name="name-user" placeholder="Name" required>
   </label>
-  <label class="header-sign-inputs-item" for="">
-    <input class="header-sign-inputs-input" type="password" name="pass" placeholder="Passord" required>
+  <label class="sign-inputs__item" for="">
+    <input class="sign-inputs__input" type="password" name="pass" placeholder="Passord" required>
   </label>
-  <main_button class="header-sign-inputs-button">Ok</main_button>
+  <button class="main-button sign-inputs__main-button">Ok</button>
  
   
 </div>
   </header>
   <main>
-    <div class="section_division" id="hello-area"></div>
+    <div class="section-division" id="hello-area"></div>
     <section class="hello-area" >
       <div class="container-bg">
-        <div class="color-vvrap">
-          <label  class="colorbar" for="theme">
+        <div class="colorbar_wrap">
+          <label  class="colorbar__items" for="theme">
           <label  class="colorbar__item" for="colorbar__item"><div class="round"></div></label>
-          <input class="colorbar__input" type="checkbox" id="colorbar__item" name="colorbar__item" >
-          <div class="colorbar_menu">
-          <label  class="colorbar__item" for="colorbar__item-green"><div class="round-green"></div></label>
+          <input class="check_input" type="checkbox" id="colorbar__item" name="colorbar__item" >
+          <div class="colorbar__menu">
+          <label  class="colorbar__menu__item" for="green"><div class="round-green"></div></label>
           
-          <label  class="colorbar__item" for="colorbar__item-red"><div class="round-red"></div></label>
+          <label  class="colorbar__menu__item" for="red"><div class="round-red"></div></label>
          
-          <label  class="colorbar__item" for="colorbar__item-aqua"><div class="round-aqua"></div></label>
-          <label  class="colorbar__item" for="colorbar__item-blue"><div class="round-blue"></div></label>
+          <label  class="colorbar__menu__item" for="aqua"><div class="round-aqua"></div></label>
+          <label  class="colorbar__menu__item" for="blue"><div class="round-blue"></div></label>
           </div>
           </label>
-          <label  class="colorbar " for="theme">
+          <label  class="colorbar__button " for="theme">
           
-            <p class="colorbar__item__p1" >dark</p>
-            <p class="colorbar__item__p2">light</p>
+            <p class="colorbar__button__p1" >dark</p>
+            <p class="colorbar__button__p2">light</p>
            
            
           </label>
         </div>
       <div class="container">
-      <div class="hello-area-vvrap">
+      <div class="hello-area_wrap">
         <div class="hello-area__text">
-          <p class="hello-area__text__p1"><span class="color-text"> Next genaretion platform </span></p>
-          <h1 class="hello-area__text__h1">Artificial intelligence & Syber security</h1>
-          <p class="hello-area__text__p">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-          <div class="hello-area__text__button">
-            <label  class="main_button hello-area__text__button-login" for="login">Get Started</label>
-            <input class="main_button hello-area__text__button-input" type="checkbox" id="login" name="login" >
+          <p class="topic__p"><span class="color-text"> Next genaretion platform </span></p>
+          <h1 class="hello-area__h1">Artificial intelligence & Syber security</h1>
+          <p class="subtitle__p">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+          <div class="hello-area__buttons-wrap">
+            <label  class="main-button hello-area__button-login" for="login">Get Started</label>
+            <input class="check_input" type="checkbox" id="login" name="login" >
          
             
-            <a class="main_button hello-area__text__button-youtube" href="#video">&#9658; Watch Video</a>
+            <a class="main-button hello-area__button-youtube" href="#video">&#9658; Watch Video</a>
           
             <div class="hello-area__text-inputs">
-              <label class="hello-area__text-inputs-item" for="">
-                <input class="hello-area__text-inputs-input" type="text" name="name-user" placeholder="Name" required>
+              <label class="hello-area__item" for="">
+                <input class="hello-area__input" type="text" name="name-user" placeholder="Name" required>
             </label>
-            <label class="hello-area__text-inputs-item" for="">
-                <input class="hello-area__text-inputs-input" type="email" name="email-user" placeholder="Email" required>
+            <label class="hello-area__item" for="">
+                <input class="hello-area__input" type="email" name="email-user" placeholder="Email" required>
             </label>
-            <label class="hello-area__text-inputs-item" for="">
-                <input class="hello-area__text-inputs-input" type="password" name="pass" placeholder="Passord" required>
+            <label class="hello-area__item" for="">
+                <input class="hello-area__input" type="password" name="pass" placeholder="Passord" required>
             </label>
         
-        <label class="hello-area__text-inputs-item"  for="">
-            <input class="main_button hello-area__text-inputs-submit" type="submit" value="Submit">
+        <label class="hello-area__item"  for="">
+            <input class="main-button hello-area__submit" type="submit" value="Submit">
         </label>
             </div>
           </div>
@@ -115,8 +115,6 @@
         </div>
         
         <div class="hello-area__img">
-         
-          </label>
          <img src="./images/hello.png" alt="banner">
         </div>
       </div>
@@ -124,147 +122,142 @@
     </div>
 
     </section>
-    <section class="video" id="video">
+    <div class="section-division" id="video"></div>
+    <section class="video" >
       <div class="container-bg">
         
         <div class="container">
-          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s0dMTAQM4cw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe class="video__item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/s0dMTAQM4cw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         
       </div>
     </section>
-    <section class="logo">
-      <div class="logo__square">
-        <div class="square"></div>
-      <div class="container">
-        <div class="logo-vvrap">
-          <img class="tech-logo" src="./images/section_logo/tech.svg" alt="Tech-logo">
-          <img class="logo-2" src="./images/section_logo/logo2.svg" alt="Logo-2">
-          <img class="g-logo" src="./images/section_logo/logoG.svg" alt="G-logo">
-          <img class="last-logo" src="./images/section_logo/Last.svg" alt="Last-logo">
+    <section class="logos">
+        <div class="container">
+        <div class="logos_wrap">
+          <img class="logos__item tech-logo" src="./images/section_logo/tech.svg" alt="Tech-logo">
+          <img class="logos__item logo-2" src="./images/section_logo/logo2.svg" alt="Logo-2">
+          <img class="logos__item g-logo" src="./images/section_logo/logoG.svg" alt="G-logo">
+          <img class="logos__item last-logo" src="./images/section_logo/Last.svg" alt="Last-logo">
         </div>
 
       </div>
-        <div class="square"></div>
-        </div>
-    </section>
+        </section>
     
-    <div class="section_division" id="about"></div>
+    <div class="section-division" id="about"></div>
     <section class="about" >
       <div class="container">
-        <div class="about-vvrap">
+       
+        <div class="about_wrap">
           <div class="about__img">
-            <div class="transparent">
-            <img class="about__img-image" src="./images/about.png" alt="about">
-            </div>
-            <p class="about__img-p1"><span class="color-text"> Perfect solve</span></p>
-            <p class="about__img-p2"><span class="color-text">learn more</span></p>
-            <p class="about__img-p3"><span class="color-text">simply-cleaver</span></p>
+            
+            <img class="about__image" src="./images/about.png" alt="about">
+                     
           </div>
           <div class="about__text">
-            <h2 class="about__text__h2">Apply AI, Deep Learning and Data Sciece to solve</h2>
-            <p class="about__text__p">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-            <main_button class="about__text__button">Learn More</main_button>
+            <h2 class="about__h2">Apply AI, Deep Learning and Data Sciece to solve</h2>
+            <p class="about__p">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+            <button class="main-button about__button">Learn More</button>
           </div>
 
         </div>
       </div>
     </section>
-    <div class="section_division" id="servises"></div>
+    <div class="section-division" id="servises"></div>
     <section class="feature" >
-      <div class="feature-vvrap">
+      <div class="feature_wrap">
         <div class="feature__card">
-          <img class="feature__card-img" src="./images/section_features/avvards.svg" alt="avvards-logo">
-          <h3 class="feature__card-h3">Naxly as the Winners in Global Agency Awards</h3>
-          <p class="feature__card-p">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+          <img class="feature__img" src="./images/section_features/avvards.svg" alt="avvards-logo">
+          <h3 class="feature__h3">Naxly as the Winners in Global Agency Awards</h3>
+          <p class="feature__p">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
         </div>
         <div class="feature__card">
-          <img class="feature__card-img" src="./images/section_features/expert.svg" alt="expert-logo">
-          <h3 class="feature__card-h3">Expert Prespective Agency Awards</h3>
-          <p class="feature__card-p">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+          <img class="feature__img" src="./images/section_features/expert.svg" alt="expert-logo">
+          <h3 class="feature__h3">Expert Prespective Agency Awards</h3>
+          <p class="feature__p">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
         </div>
         <div class="feature__card">
-          <img class="feature__card-img" src="./images/section_features/business.svg" alt="business-logo">
-          <h3 class="feature__card-h3">Business Prespective Global Agency Awards</h3>
-          <p class="feature__card-p">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+          <img class="feature__img" src="./images/section_features/business.svg" alt="business-logo">
+          <h3 class="feature__h3">Business Prespective Global Agency Awards</h3>
+          <p class="feature__p">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
         </div>
         <div class="feature__card">
-          <img class="feature__card-img" src="./images/section_features/value.svg" alt="value-logo">
-          <h3 class="feature__card-h3">Value for Results in Global Agency Awards</h3>
-          <p class="feature__card-p">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+          <img class="feature__img" src="./images/section_features/value.svg" alt="value-logo">
+          <h3 class="feature__h3">Value for Results in Global Agency Awards</h3>
+          <p class="feature__p">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
         </div>
         <div class="feature__card">
-          <img class="feature__card-img" src="./images/section_features/global.svg" alt="global-logo">
-          <h3 class="feature__card-h3">Global Experience in Agency Awards</h3>
-          <p class="feature__card-p">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+          <img class="feature__img" src="./images/section_features/global.svg" alt="global-logo">
+          <h3 class="feature__h3">Global Experience in Agency Awards</h3>
+          <p class="feature__p">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
         </div>
       </div>
     </section>
-    <div class="section_division" id="revviev"></div>
-    <section class="revviev" >
+    <div class="section-division" id="revviev"></div>
+    <section class="rewiev" >
       <div class="container">
-        <div class="revviev-vvrap">
-          <div class="revviev__text">
-            <h2 class="revviev__text__h2">What our clients say about our awesome solutions</h2>
-            <div class="revviev__text-vvrap">
-            <div class="revviev__text__head">
-            <p class="revviev__text__head1">take a trivial example...</p>
-            <label class="revviev__text__label"for="learn1"><p><span class="color-text"> read more</span></p></label>
+        <div class="rewiev_wrap">
+          <div class="rewiev__text">
+            <h2 class="rewiev__h2">What our clients say about our awesome solutions</h2>
+            <div class="rewiev__text_wrap">
+            <div class="rewiev__topic">
+            <p class="rewiev__topic-name">take a trivial example...</p>
+            <label class="rewiev__label" for="learn1"><span class="color-text"> read more</span></label>
           </div>
-            <input class="revviev__text__input1" type="checkbox" id="learn1" name="learn1">
+            <input class="check_input" type="checkbox" id="learn1" name="learn1">
         
-            <p class="revviev__text__p1">To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it who do not know.</p>
-          <div class="revviev__text__head">
-            <p class="revviev__text__head2">used in the graphic...</p>
-            <label class="revviev__text__label" for="learn2"><p><span class="color-text">read more</span></p></label>
+            <p class="rewiev__p" id="content1">To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it who do not know.</p>
+          <div class="rewiev__topic">
+            <p class="rewiev__topic-name">used in the graphic...</p>
+            <label class="rewiev__label" for="learn2"><span class="color-text">read more</span></label>
           </div>
-            <input class="revviev__text__input2" type="checkbox" id="learn2" name="learn2">
-            <p class="revviev__text__p2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing .</p>
-          <div class="revviev__text__head">
-            <p>previewing layouts and <wbr>visual mockups...</p>
-            <label class="revviev__text__label" for="learn3"><p><span class="color-text">read more</span></p></label>
+            <input class="check_input" type="checkbox" id="learn2" name="learn2">
+            <p class="rewiev__p" id="content2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing .</p>
+          <div class="rewiev__topic">
+            <p class="rewiev__topic-name">previewing layouts and visual mockups...</p>
+            <label class="rewiev__label" for="learn3"><span class="color-text">read more</span></label>
           </div>
-            <input class="revviev__text__input3" type="checkbox" id="learn3" name="learn3">
-            <p class="revviev__text__p3">Lorem ipsum is placeholder previewing layouts and visual mockups.</p>
-          <div class="revviev__text__head">
-            <p>visual mockups...</p>
-            <label class="revviev__text__label" for="learn4"><p><span class="color-text">read more</span></p></label>
+            <input class="check_input" type="checkbox" id="learn3" name="learn3">
+            <p class="rewiev__p" id="content3">Lorem ipsum is placeholder previewing layouts and visual mockups.</p>
+          <div class="rewiev__topic">
+            <p class="rewiev__topic-name">visual mockups...</p>
+            <label class="rewiev__label" for="learn4"><span class="color-text">read more</span></label>
           </div>
-            <input class="revviev__text__input4" type="checkbox" id="learn4" name="learn4">
-            <p class="revviev__text__p4">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+            <input class="check_input" type="checkbox" id="learn4" name="learn4">
+            <p class="rewiev__p" id="content4">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
             
-            <div class="revviev__text__head">
-              <p>Leave us your feedback. It's very important for us. Thank you!</p>
-              <label class="revviev__text__label" for="learn5"><p><span class="color-text">feedback</span></p></label>
+            <div class="rewiev__topic">
+              <p class="rewiev__topic-name">Leave us your feedback. It's very important for us. Thank you!</p>
+              <label class="rewiev__label" for="learn5"><span class="color-text">feed<wbr>back</span></label>
             </div>
-              <input class="revviev__text__input5" type="checkbox" id="learn5" name="learn5">
-              <div class="revviev__text__inputs">
-                <form class="revviev__text__inputs-form" action="send.php" method="post">
-                    <div class="revviev__text__inputs__sender">
-                    <label class="revviev__text__inputs-item" for="">Name
-                        <input class="revviev__text__inputs-input" type="text" placeholder="Enter your name" required>
+              <input class="check_input" type="checkbox" id="learn5" name="learn5">
+              <div class="rewiev__feedback">
+                <form class="rewiev__feedback-form" action="send.php" method="post">
+                    <div class="rewiev__sender">
+                    <label class="rewiev__item" for="">Name
+                        <input class="rewiev__input" type="text" placeholder="Enter your name" required>
                     </label>
-                    <label class="revviev__text__inputs-item" for="">Email
-                        <input class="revviev__text__inputs-input" type="text" placeholder="username@example.com" required>
+                    <label class="rewiev__item" for="">Email
+                        <input class="rewiev__input" type="text" placeholder="username@example.com" required>
                     </label>
                     
                     </div>
                 
-                    <label class="revviev__text__inputs__label" for="emailText">Message
-                    <textarea class="revviev__text__inputs__text" name="emailText" id="" cols="30" rows="10"></textarea>
+                    <label class="rewiev__item" for="emailText">Message
+                    <textarea class="rewiev__textarea" name="emailText" id="" cols="30" rows="10"></textarea>
                     </label>
-                
+                    <label for="" class="rewiev__label">
+                    <input class="main-button rewiev__button-submit" type="submit" value="Submit">
+                    </label>
                 </form>
-                <label for="" class="revviev__text__inputs__button">
-                  <input class="main_button revviev__text__inputs__button" type="submit" value="Submit">
-                  </label>
+                
             </div>
             
         
           </div>
           
           </div>
-          <div class="revviev__img">
+          <div class="rewiev__img">
             <img src="./images/section_revviev/revviev.svg" alt="revviev">
           </div>
 
@@ -275,38 +268,46 @@
     </section>
   
   </main>
-  <div class="section_division" id="footer"></div>
+  <div class="section-division" id="footer"></div>
   <footer class="footer" >
     <div class="container">
-      <div class="footer-vvrap">
+      <div class="footer_wrap">
         <div class="footer-cards footer__general">
-          <div class="footer__logo-vvrap">
-          <img class="header__logo-img footer_animation" src="./images/logo.svg" alt="Logo">
-        <p class="footer__logo-p">Artificial Intelligence</p>
-      </div>
+          <a href="#hello-area" class="logo footer__logo">
+            <img class="logo__img" src="./images/logo.svg" alt="Logo">
+            <p class="logo__p">Artificial Intelligence</p>
+        </a>
         <p class="footer__p">Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
-        <a class="footer__p" href="#"><img src="./images/footer/mail.svg" alt="mail-icon"> Company<wbr>@gmail.com.com</a>
-        <a class="footer__p" href="#"><img src="./images/footer/phone.svg" alt="phone-icon"> Phone: (064) 332-1233</a>
-        <a class="footer__p" href="#"><img src="./images/footer/maps.svg" alt="maps-icon"> 450 Wall Street, USA, New York</a>
+        <a class="footer__p" href="mailto: Company@gmail.com.com"><svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="icon" d="M2.3 1H12.7C13.415 1 14 1.585 14 2.3V10.1C14 10.815 13.415 11.4 12.7 11.4H2.3C1.585 11.4 1 10.815 1 10.1V2.3C1 1.585 1.585 1 2.3 1Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+          <path class="icon-nobg" d="M14 2.30005L7.5 6.85005L1 2.30005" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg> Company<wbr>@gmail.com.com</a>
+        <a class="footer__p" href="tel:0643321233"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="icon" d="M9.03682 3.4847C9.64354 3.60307 10.2011 3.8998 10.6382 4.33691C11.0754 4.77401 11.3721 5.33161 11.4905 5.93833L9.03682 3.4847ZM9.03682 1C10.2974 1.14004 11.4728 1.70452 12.3702 2.60077C13.2676 3.49702 13.8335 4.67176 13.9752 5.93212L9.03682 1ZM13.354 10.8891V12.7526C13.3547 12.9256 13.3192 13.0968 13.2499 13.2554C13.1806 13.4139 13.079 13.5562 12.9515 13.6731C12.824 13.7901 12.6735 13.8791 12.5096 13.9345C12.3458 13.9899 12.1721 14.0105 11.9998 13.995C10.0884 13.7873 8.25228 13.1341 6.63909 12.088C5.13823 11.1342 3.86576 9.86177 2.91205 8.36091C1.86225 6.74039 1.20894 4.89538 1.00504 2.97533C0.989519 2.80356 1.00993 2.63043 1.06499 2.46698C1.12004 2.30353 1.20852 2.15333 1.3248 2.02594C1.44108 1.89856 1.58261 1.79679 1.74038 1.7271C1.89815 1.65741 2.0687 1.62134 2.24118 1.62117H4.1047C4.40616 1.61821 4.69841 1.72496 4.92699 1.92153C5.15556 2.1181 5.30486 2.39109 5.34705 2.68959C5.4257 3.28596 5.57157 3.87152 5.78187 4.43509C5.86544 4.65742 5.88353 4.89906 5.83399 5.13135C5.78445 5.36365 5.66935 5.57688 5.50234 5.74577L4.71345 6.53466C5.59773 8.0898 6.88536 9.37743 8.44049 10.2617L9.22938 9.47281C9.39827 9.3058 9.6115 9.1907 9.8438 9.14116C10.0761 9.09162 10.3177 9.10971 10.5401 9.19328C11.1036 9.40358 11.6892 9.54945 12.2856 9.62811C12.5873 9.67067 12.8629 9.82266 13.0599 10.0552C13.2569 10.2877 13.3615 10.5844 13.354 10.8891Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg> Phone: (064) 332-1233</a>
+        <a class="footer__p" href="https://www.google.by/maps"><svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="icon" d="M14 7.5C14 12.5556 7.5 16.8889 7.5 16.8889C7.5 16.8889 1 12.5556 1 7.5C1 5.77609 1.68482 4.12279 2.90381 2.90381C4.12279 1.68482 5.77609 1 7.5 1C9.22391 1 10.8772 1.68482 12.0962 2.90381C13.3152 4.12279 14 5.77609 14 7.5Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+          <path class="icon-nobg" d="M7.50004 9.66671C8.69666 9.66671 9.66671 8.69666 9.66671 7.50004C9.66671 6.30342 8.69666 5.33337 7.50004 5.33337C6.30342 5.33337 5.33337 6.30342 5.33337 7.50004C5.33337 8.69666 6.30342 9.66671 7.50004 9.66671Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg> 450 Wall Street, USA, New York</a>
         </div>
-        <div class="footer-cards-vvrap">
+        <div class="footer-cards_wrap">
         <div class="footer-cards footer__information">
           <h4 class="footer__h4">INFOR<wbr>MATION</h4>
           <a class="footer-link" href="#">New Collection</a>
-            <a class="footer-link" href="#">About Store</a>
-              <a class="footer-link" href="#">Contact Us</a> 
-                <a class="footer-link" href="#">Latest News</a> 
-                  <a class="footer-link" href="#">Our Sitemap</a> 
-                    <a class="footer-link" href="#">Orders History</a> 
+          <a class="footer-link" href="#">About Store</a>
+          <a class="footer-link" href="#">Contact Us</a> 
+          <a class="footer-link" href="#">Latest News</a> 
+          <a class="footer-link" href="#">Our Sitemap</a> 
+          <a class="footer-link" href="#">Orders History</a> 
         </div>
         <div class="footer-cards footer__menu">
           <h4 class="footer__h4">FOOTER MENU</h4>
           <a class="footer-link" href="#"> Instagram profile</a>
-            <a class="footer-link" href="#"> New Collection</a>
-              <a class="footer-link" href="#">Contact Us</a>
-                <a class="footer-link" href="#">Latest News</a>
-                  <a class="footer-link" href="#">Terms &<wbr> Conditions</a>
-                    <a class="footer-link" href="#">Purchase Theme</a>
+          <a class="footer-link" href="#"> New Collection</a>
+          <a class="footer-link" href="#">Contact Us</a>
+          <a class="footer-link" href="#">Latest News</a>
+          <a class="footer-link" href="#">Terms &<wbr> Conditions</a>
+          <a class="footer-link" href="#">Purchase Theme</a>
         </div>
         <div class="footer-cards footer__links">
           <h4 class="footer__h4">USEFUL LINKS</h4>
@@ -321,17 +322,36 @@
         <div class="footer-cards footer__store">
           <h4 class="footer__h4">ABOUT THE STORE</h4>
           <p class="footer__p">Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
-          <a class="footer__p" href="#">www.<wbr>company.com</a>
+          <a class="footer__p" href="#">www.company.com</a>
           <div class="footer__store-icon">
-            <a class="footer-link" href="#"><img src="./images/footer/facebook.svg" alt="facebook-icon"></a>
-            <a class="footer-link" href="#"><img src="./images/footer/inst.svg" alt="instagram-icon"></a>
-            <a class="footer-link" href="#"><img src="./images/footer/tvviter.svg" alt="tvviter-icon"></a>
-            <a class="footer-link" href="#"><img src="./images/footer/linkedin.svg" alt="linkedin-icon"></a>
-            <a class="footer-link" href="#"><img src="./images/footer/instagram.svg" alt="youtube-icon"></a>
+            <a class="footer-link" href="https://facebook.com"><svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="icon" d="M9.25 1H7C6.00544 1 5.05161 1.39509 4.34835 2.09835C3.64509 2.80161 3.25 3.75544 3.25 4.75V7H1V10H3.25V16H6.25V10H8.5L9.25 7H6.25V4.75C6.25 4.55109 6.32902 4.36032 6.46967 4.21967C6.61032 4.07902 6.80109 4 7 4H9.25V1Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg></a>
+            <a class="footer-link" href="https://instagram.com"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="icon" d="M12.5 1H5C2.92893 1 1.25 2.67893 1.25 4.75V12.25C1.25 14.3211 2.92893 16 5 16H12.5C14.5711 16 16.25 14.3211 16.25 12.25V4.75C16.25 2.67893 14.5711 1 12.5 1Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path class="icon-nobg" d="M11.75 8.02736C11.8426 8.65154 11.736 9.28902 11.4453 9.84912C11.1547 10.4092 10.6949 10.8634 10.1312 11.1471C9.5676 11.4308 8.92886 11.5296 8.30586 11.4293C7.68287 11.3291 7.10734 11.0349 6.66115 10.5887C6.21496 10.1425 5.92082 9.56702 5.82058 8.94402C5.72033 8.32102 5.81907 7.68228 6.10277 7.11864C6.38647 6.555 6.84066 6.09517 7.40076 5.80454C7.96086 5.51392 8.59834 5.4073 9.22252 5.49986C9.85922 5.59427 10.4487 5.89096 10.9038 6.34609C11.3589 6.80122 11.6556 7.39067 11.75 8.02736Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path class="icon-nobg" d="M12.875 4.375H12.8825" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg></a>
+            <a class="footer-link" href="https://twitter.com"><svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="icon" d="M19.6409 1.00841C18.8404 1.57307 17.954 2.00495 17.016 2.28741C16.5125 1.70852 15.8434 1.29822 15.0992 1.112C14.3549 0.925781 13.5715 0.972624 12.8547 
+              1.24619C12.138 1.51977 11.5225 2.00686 11.0916 2.64161C10.6607 3.27636 10.4352 4.02813 10.4454 4.79525V5.6312C8.97637 5.6693 7.52068
+               5.34348 6.20802 4.68277C4.89536 4.02207 3.76647 3.04698 2.9219 1.84435C2.9219 1.84435 -0.421898 9.36789 7.10164 12.7117C5.38003 
+               13.8803 3.32914 14.4663 1.25 14.3836C8.77354 18.5633 17.969 14.3836 17.969 4.77018C17.9682 4.53733 17.9458 4.30505 17.9021 
+               4.07634C18.7553 3.23495 19.3573 2.17264 19.6409 1.00841V1.00841Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg></a>
+            <a class="footer-link" href="https://youtube.com"><svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="icon" d="M18.2641 2.9799C18.1669 2.59162 17.9689 2.23586 17.6903 1.94856C17.4116 1.66125 17.062 1.45258 16.6769 1.34362C15.2697 1 9.64087 1 9.64087 1C9.64087 1 4.01207 1 2.60487 1.37634C2.21973 1.48531 1.87016 1.69398 1.59148 1.98128C1.3128 2.26858 1.11487 2.62434 1.01768 3.01262C0.760143 4.44073 0.634167 5.88945 0.641337 7.34058C0.632157 8.80263 0.758141 10.2624 1.01768 11.7013C1.12482 12.0775 1.32719 12.4197 1.60522 12.6949C1.88326 12.97 2.22756 13.1689 2.60487 13.2721C4.01207 13.6484 9.64087 13.6484 9.64087 13.6484C9.64087 13.6484 15.2697 13.6484 16.6769 13.2721C17.062 13.1631 17.4116 12.9545 17.6903 12.6672C17.9689 12.3799 18.1669 12.0241 18.2641 11.6358C18.5196 10.2185 18.6456 8.78078 18.6404 7.34058C18.6496 5.87853 18.5236 4.41876 18.2641 2.9799V2.9799Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path  class="icon-nobg" d="M7.80005 10.0157L12.5043 7.34035L7.80005 4.66504V10.0157Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg></a>
+            <a class="footer-link" href="https://linkedin.com"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="icon" d="M11.1409 5.5C12.3343 5.5 13.4789 5.97411 14.3229 6.81802C15.1668 7.66193 15.6409 8.80653 15.6409 10V15.25H12.6409V10C12.6409 9.60218 12.4828 9.22064 12.2015 8.93934C11.9202 8.65804 11.5387 8.5 11.1409 8.5C10.743 8.5 10.3615 8.65804 10.0802 8.93934C9.7989 9.22064 9.64087 9.60218 9.64087 10V15.25H6.64087V10C6.64087 8.80653 7.11498 7.66193 7.95889 6.81802C8.8028 5.97411 9.94739 5.5 11.1409 5.5V5.5Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path class="icon" d="M3.64087 6.25H0.640869V15.25H3.64087V6.25Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              <path class="icon" d="M2.14087 4C2.9693 4 3.64087 3.32843 3.64087 2.5C3.64087 1.67157 2.9693 1 2.14087 1C1.31244 1 0.640869 1.67157 0.640869 2.5C0.640869 3.32843 1.31244 4 2.14087 4Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg></a>
           </div>
           <select class="footer__store-select">
-            <option class="footer__store-option">&#128309;English</option>
-            <option class="footer__store-option">&#128309;Russian</option>
+            <option class="footer__store-option"> English</option>
+            <option class="footer__store-option"> Russian</option>
           </select>
         </div>
       </div>

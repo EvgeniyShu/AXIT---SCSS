@@ -1,30 +1,39 @@
-
-
 .header{
     background-color: var(--firstColor);
     background: linear-gradient(rgba(0, 0, 0, 0.25));
     position:sticky;
    top: 0px;
    z-index: 10;
-&-vvrap{
+&_wrap{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-   
+    gap:63px;
 }
-&__logo{
+
+&__main-button{
+    width: 112px;
+    height: 52px;
+    line-height: 52px;
+    margin-left: 160px;
+}
+}
+
+.logo{
+    max-height: 57px;
     display: flex;
     flex-flow: row nowrap;
     gap: 15px;
     flex-basis: 283px;
-    margin: 21px 0px;
-&-img{
+    margin:22px 0px;
+    text-decoration: none;
+    align-items: center;
+&__img{
     width: 44.04px;
     height: 57px;
 }
 
-&-p{
-    margin: auto;
+&__p{
     color: var(--mainColor);
     font-family: 'OpenSans',sans-serif;
     font-weight: 600;
@@ -32,61 +41,61 @@
 }
 }
 
-&__menu{
-    margin-left: 63px;
+.menu{
+  
     flex-basis: 441px;
     padding: 0;
     
 &-items{
+    display: block;
+    width: 100%;
+    height: 100%;
     list-style-type: none;
    display: grid;
    grid-template-columns: repeat(5, 1fr);
    gap:10px;
    padding: 0;
+   text-align: center;
 }
 
-&-item{
+&__item{
+    
+    align-self: center;
+    width: 100%;
+    height: 100%;
+   
     color: var(--secondColor);
+}
 &__link{
+
     text-decoration: none;
     font-family: 'OpenSans',sans-serif;
 font-weight: 600;
 font-size: 16px;
 color: var(--secondColor);
-padding: 10px 20px;
+padding: 17.8px 17.8px;
 }
 &__link:active,&__link:hover{
     color: var(--mainColor);
 }
-}
-}
+}  
 
-&-button{
-    
-    width: 112px;
-    height: 52px;
-    line-height: 52px;
-    margin: 24px 129px 24px auto;
-}
-   
-}
-.header-button-input{
-    display: none;
-}
-.header-sign-inputs{
+
+.sign-inputs{
     display: none;
     flex-flow: row nowrap;
     justify-content: flex-end;
     gap: 10px;
     max-width: 100%;
-    margin: 0px ;
+    margin: 0px 120px;
     padding: 3px;
     background-color: var(--firstColor);
     border-radius: 5px;
-    &-item{
+    &__item{
         max-width: 30%;
     }
-    &-input{
+    &__input{
+        
         max-width: 100%;
         background-color: var(--firstColor);
     color: var(--secondColor);
@@ -95,59 +104,69 @@ padding: 10px 20px;
     }
 }
 
-.header-sign-inputs-button{
+.sign-inputs__main-button{
+   
     padding: 3px 10px;
 }
-.header-button-input:checked~.header-sign-inputs{
+#sign:checked~.sign-inputs{
     display: flex;
 }
-
+@media screen and (max-width:1380px){
+    .sign-inputs{
+        margin: 0px 0px;
+}
+}
 @media screen and (max-width:1200px){
-   .header-vvrap{
+   .header_wrap{
     justify-content: space-evenly;
    } 
-   .header__logo{
+   .logo{
     padding-left: 10px;
    }
-
+   .header__main-button{
+    width: 100px;
+    height: 52px;
+    line-height: 52px;
+    margin-left: 0px;
+   }
+   
 }
 
 @media screen and (max-width:999px){
-    .header-vvrap{
-       
+    .header_wrap{
         flex-flow: column-reverse nowrap;
-        align-items: flex-start; 
-  
+        align-items: flex-start;
+        gap:10px; 
 }
 
-.header__logo{
-    
+.logo{
     flex-basis: 75px;
-    
     position: absolute;
     top: 0;
     z-index: -1;
-   
-    
+
 }
-.header__menu{
+.menu{
+   
     margin-left: 0px;
-    flex-basis: 75px;
+    flex-basis: 20px;
     align-self: center;
 }
-.header-button{
+.header__main-button{
     margin: 24px 29px 4px auto; 
 }
-.header__menu{
-        
-    flex-basis: 15px;
+.menu, .menu__item{
+    margin: 0;
 }
-.header__menu-items{
-    margin: 5px;
+.menu__link{
+    padding: 7px;
+}
+.sign-inputs{
+    margin: 0px 20px;
 } 
 }
 @media screen and (max-width:770px){
-    .header__logo-p{
+    .logo__p{
     
         max-width: 75px;}
        
@@ -155,29 +174,43 @@ padding: 10px 20px;
 }
 @media screen and (max-width:580px){
  
-    .header__menu-item__link{
+    .menu__link{
         padding: 10px;
     }
-    .header-p{
+    .logo__p{
         max-width: 15%;
         font-size: 9px;
      }
-     .header-button{
+     .header__button{
         margin: 24px 0px 4px auto; 
     } 
-    .header-sign-inputs-item{
+    .sign-inputs__item{
         max-width: 35%;
     }
-    .header-sign-inputs-input{
+    .sign-inputs__input{
         padding: 3px;
         max-width: 100%;
     }
 }
-@media screen and (max-width:375px){
-
- .header__link{
- font-size: 15px;
-padding: 0px ;   
+@media screen and (max-width:380px){
+    .header__main-button{
+        margin: 10px 0px 0px auto; 
+        width: 80px;
+        height: 32px;
+    line-height: 32px;
+    }
+    .logo{
+        margin: 0px 0px 0px 0px;
+    }
+    .sign-inputs{
+        margin: 0px 00px;
 }
 
+ .menu__link{
+ font-size: 10px;
+padding: 5px ;   
+}
+.logo__p{
+    display: none;
+ }
 }

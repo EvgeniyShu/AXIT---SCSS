@@ -1,8 +1,6 @@
 
-
-
-
 html{
+   
     width: 100%;
     max-width: 1920px;
     min-width: 280px;
@@ -12,13 +10,27 @@ html{
 
 body{
     margin: 0;
-   
+ 
 }
-.hello-area, .logo,.feature__card{
+.check_input{
+    display: none;
+}
+
+.hello-area, .header,.feature__card{
    
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.025) -41.9%, rgba(255, 255, 255, 0.05) 260.24%);
     
     background-color: var(--firstColor);
+}
+.container-bg{
+    display: flex;
+   flex-flow: column;
+    max-width: 1290px;
+    padding: 10px;
+    height: 100%;
+    margin: 0 auto;
+    background: linear-gradient(127deg, var(--mainColor),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0) ,var(--mainColor)),
+    
 }
 .container{
     max-width: 1275px;
@@ -26,11 +38,11 @@ body{
    background-color: var(--firstColor);
  
 }
-.section_division{
+.section-division{
     position: relative;
     top:-150px;
 }
-main_button, .main_button{
+.main-button{
     font-family: 'OpenSans',sans-serif;
 
     font-weight: 600;
@@ -47,20 +59,13 @@ main_button, .main_button{
     &:active{
         background-color: rgb(129, 5, 5);
     }
+    &:focus{
+        border: 1px solid rgba($color: #177c63, $alpha: 0.9);
+    }
 }
-
-.polygon{
-    display: block;
-    border: 1px solid transparent; border-left: 1px solid var(--secondColor);
-width: 27px;
-height: 26px;
-background: var(--secondColor);
-
-}
-
 
 .color-text{
-    text-transform:uppercase;
+    
     color: var(--mainColor);
     
    
@@ -94,10 +99,11 @@ line-height: 160%;
 color: var(--secondColor);
     opacity: 0.7;
     }
-   .header-sign-inputs-input,.colorbar,.hello-area__text-inputs-item{
+label{
     background-color: var(--firstColor);
     border: 1px solid var(--mainColor);
     border-radius: 5px;
+    z-index: 1;
 }
 input, textarea {
     border-radius: 5px;

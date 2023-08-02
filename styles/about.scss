@@ -1,10 +1,11 @@
 .about{
     
     background-color: var(--firstColor);
-&-vvrap{
+    padding-bottom: 198px;
+&_wrap{
     max-width: 100%;
     padding-top: 10px;
-    padding-bottom: 198px;
+    
     display: grid;
     grid-template-columns: repeat(2,1fr);
     
@@ -12,17 +13,19 @@
 &__img{
     max-width: 100%;
     box-sizing: border-box;
-    &-image{
+}
+&__image{
        
         display: block;
         width: 700px;
         height: 669px;
         object-fit: contain;
     }
-}
+
 &__text{
     max-width:100%;
     padding-left: 10px;
+}
 &__h2{
 margin-top: 120px;
 margin-bottom: 30px;
@@ -36,69 +39,28 @@ margin-bottom: 30px;
 
 }
 }
-}
-.about__img-p1,.about__img-p2,.about__img-p3{
-    display: none;
-    font-weight: 600;
-    font-size: 50px;
-}
-.transparent{
-    opacity: 1;
-    background-color: var(--firstColor);
-}
-.transparent:hover~.about__img-p1,.transparent:hover~.about__img-p2 ,.transparent:hover~.about__img-p3{
-    cursor: pointer;
-    display: block;
-}
-.about__img-p1{
-    max-width: 50%;
-    position: relative;
-    top:-530px;
-    animation: P1 7s;
-    
 
 
-}
-.about__img-p2{
-    position: relative;
-    top:-650px;
-    left: 600px;
-    animation: opacity 7s;
-}
-.about__img-p3{
-    position: relative;
-    top:-570px;
-    left: 500px;
-    animation: opacity 7s;
-}
-.about__text__button{
+
+.about__button{
     padding: 15px 25px;
 }
 
 
 @media screen and (max-width:1380px){
-    .about__img-image{
+    .about__img{
     width: 500px;
     height: 490px;
     }  
-    .about__text__h2{
+    .about__h2{
         margin-top: 20px;
     }
    
 }
 @media screen and (max-width:1200px){
    
-}
 
-@media screen and (max-width:999px){
-    .transparent:hover~.about__img-p2 ,.transparent:hover~.about__img-p3{
-       
-        display: none;
-} 
-}  
-
-@media screen and (max-width:770px){
-    .about-vvrap{   
+    .about_wrap{   
     grid-template-columns:1fr;
 }
 
@@ -111,7 +73,7 @@ margin-bottom: 30px;
     background-size: 100% 100%;
     
 }
-.about__text__p{ 
+.about__p{ 
    
     margin-bottom: 20px}
 
